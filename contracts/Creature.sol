@@ -14,10 +14,10 @@ contract Creature is ERC721Tradable {
     {}
 
     function baseTokenURI() public pure returns (string memory) {
-        return "https://raw.githubusercontent.com/jtgaschler22/TxtFile/main/sample";
+        return "https://raw.githubusercontent.com/crcrawfo1/NFT_test/main/";
     }
 
     function contractURI() public pure returns (string memory) {
-        return "https://creatures-api.opensea.io/contract/opensea-creatures";
+        return "https://raw.githubusercontent.com/crcrawfo1/NFT_test/main/meta_data_project.txt";
     }
 }
